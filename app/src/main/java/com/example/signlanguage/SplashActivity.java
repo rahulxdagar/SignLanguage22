@@ -8,12 +8,15 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class SplashActivity extends AppCompatActivity {
     ImageView logo,splashImg;
@@ -22,6 +25,7 @@ public class SplashActivity extends AppCompatActivity {
     private  static final int NUM_PAGES=3;
     private ViewPager2 viewPager;
     private ScreenSlidePagerAdapter pagerAdapter;
+
 
     Animation anim;
     @Override
@@ -42,14 +46,7 @@ public class SplashActivity extends AppCompatActivity {
         logo.animate().translationY(1600).setDuration(1000).setStartDelay(4000);
         lottieAnimationView.animate().translationY(1600).setDuration(1000).setStartDelay(4000);
 
-        viewPager=findViewById(R.id.pager);
-        pagerAdapter=new ScreenSlidePagerAdapter(this);
-        viewPager.setAdapter(pagerAdapter);
-
-        anim= AnimationUtils.loadAnimation(this,R.anim.ob_anim);
-        viewPager.setAnimation(anim);
-
-        /*Thread t1=new Thread(){
+        /* Thread t1=new Thread(){
          public void run(){
              try{
                  sleep(4000);
@@ -59,13 +56,28 @@ public class SplashActivity extends AppCompatActivity {
              }
 
              finally{
-                 Intent intent=new Intent(SplashActivity.this,MainActivity.class);
-                 startActivity(intent);
+                 FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
+                 if(currentUser != null){
+                     startActivity(new Intent(SplashActivity.this,MainActivity.class));
+                 }
                  finish();
              }
          }
         };
         t1.start();*/
+
+
+
+
+
+        viewPager=findViewById(R.id.pager);
+        pagerAdapter=new ScreenSlidePagerAdapter(this);
+        viewPager.setAdapter(pagerAdapter);
+
+        anim= AnimationUtils.loadAnimation(this,R.anim.ob_anim);
+        viewPager.setAnimation(anim);
+
+
     }
 
    private class ScreenSlidePagerAdapter extends FragmentStateAdapter{
