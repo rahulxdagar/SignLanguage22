@@ -20,18 +20,21 @@
 
 
         app:srcCompat="@drawable/login_background" />
+
+
+
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintHeight_percent="0.76"
-        app:layout_constraintVertical_bias="1"
         android:background="@drawable/viewbg"
-
         app:layout_constraintBottom_toBottomOf="parent"
+
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.76"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        >
+        app:layout_constraintVertical_bias="1">
 
         <androidx.viewpager2.widget.ViewPager2
 
@@ -52,15 +55,15 @@
             android:id="@+id/tab_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintVertical_bias="0"
+            android:background="@drawable/viewbg"
+            android:contentDescription="TODO"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:background="@drawable/viewbg"
-            android:contentDescription="TODO"/>
+            app:layout_constraintVertical_bias="0" />
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
+        <!-- <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_google"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -104,7 +107,7 @@
             app:layout_constraintStart_toEndOf="@+id/fab_google"
             app:layout_constraintTop_toBottomOf="@+id/view_pager"
             app:srcCompat="@drawable/twitter"
-            app:tint="@null" />
+            app:tint="@null" />-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

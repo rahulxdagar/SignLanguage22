@@ -19,6 +19,26 @@
         app:layout_constraintTop_toTopOf="parent"
 
         app:srcCompat="@drawable/login_background" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="@color/white"
+
+        android:contentDescription="TODO"
+        android:elevation="35dp"
+        app:fabCustomSize="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@+id/image_onlylogo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:maxImageSize="42dp"
+        app:srcCompat="@drawable/logout"
+        app:tint="@null" />
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"

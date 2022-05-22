@@ -43,8 +43,8 @@ public class SplashActivity extends AppCompatActivity {
 
 
         splashImg.animate().translationY(-2200).setDuration(1000).setStartDelay(4000);
-        logo.animate().translationY(1600).setDuration(1000).setStartDelay(4000);
-        lottieAnimationView.animate().translationY(1600).setDuration(1000).setStartDelay(4000);
+        logo.animate().translationY(2000).setDuration(1000).setStartDelay(4000);
+        lottieAnimationView.animate().translationY(2000).setDuration(1000).setStartDelay(4000);
 
         /* Thread t1=new Thread(){
          public void run(){

@@ -10,17 +10,24 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/drawable/edit_text_bg.xml" value="0.1385" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.1385" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/drawable/view_loginbg.xml" value="0.1385" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/activity_char_list.xml" value="0.14947916666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/activity_choose.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/activity_forget_password.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/activity_phrase_list.xml" value="0.14947916666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/activity_splash.xml" value="0.22" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/demo.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/fragment_descfragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/fragment_descfragment2.xml" value="0.14947916666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/fragment_onboarding1.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/fragment_onboarding2.xml" value="0.22" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/fragment_onboarding3.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/fragment_recfragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/fragment_recfragment2.xml" value="0.14947916666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/login_tab_fragment.xml" value="0.18" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/signup_tab_fragment.xml" value="0.22456140350877193" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SIgnLanguage/app/src/main/res/layout/singlerowdesign.xml" value="0.14947916666666666" />
       </map>
     </option>
   </component>

@@ -32,7 +32,7 @@ public class ForgetPassword extends AppCompatActivity {
         reset=findViewById(R.id.button_resetpass);
         mAuth=FirebaseAuth.getInstance();
         progressBar=findViewById(R.id.progress_bar_forget);
-
+        getSupportActionBar().hide();
         reset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
