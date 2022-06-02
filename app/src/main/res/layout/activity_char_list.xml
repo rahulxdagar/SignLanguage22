@@ -5,7 +5,7 @@
     android:id="@+id/wrapper"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FE7F9C"
+    android:background="#4979F3"
     tools:context=".CharList">
 
     <TextView
